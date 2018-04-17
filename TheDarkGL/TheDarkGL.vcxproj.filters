@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Engine">
+      <UniqueIdentifier>{9a94f566-d080-4019-bcef-8307373bacbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Engine">
+      <UniqueIdentifier>{c99bbfff-5ac9-458f-8170-39b819ed1c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\TheDarkGame">
+      <UniqueIdentifier>{5ba40043-3c6a-45bd-bd87-cb0998a41df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\TheDarkGame">
+      <UniqueIdentifier>{05b58811-6393-482e-b697-67a2b22a71d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\TheDarkGame\Widgets">
+      <UniqueIdentifier>{9f4fd722-ad22-40cc-9c27-7f988915eb1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\TheDarkGame\Widgets">
+      <UniqueIdentifier>{54ead647-da5a-431d-813f-30a2ea431747}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateInit.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageManager.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateGame.cpp">
+      <Filter>Файлы исходного кода\TheDarkGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Файлы исходного кода\TheDarkGame</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Файлы исходного кода\TheDarkGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Файлы исходного кода\TheDarkGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Файлы исходного кода\TheDarkGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Файлы исходного кода\TheDarkGame</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MapRedactor.cpp">
+      <Filter>Файлы исходного кода\TheDarkGame</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetPropertiesRedactor.cpp">
+      <Filter>Файлы исходного кода\TheDarkGame\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetPaletteWindow.cpp">
+      <Filter>Файлы исходного кода\TheDarkGame\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RPSAttributes.cpp">
+      <Filter>Файлы исходного кода\TheDarkGame</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetTextureSelector.cpp">
+      <Filter>Файлы исходного кода\TheDarkGame\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob.cpp">
+      <Filter>Файлы исходного кода\TheDarkGame</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameStateInit.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageManager.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="INI1.31.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateGame.h">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="MapRedactor.h">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+    <ClInclude Include="RPGAttributes.h">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WidgetPropertiesRedactor.h">
+      <Filter>Заголовочные файлы\TheDarkGame\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="WidgetPaletteWindow.h">
+      <Filter>Заголовочные файлы\TheDarkGame\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RPSAttributes.h">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+    <ClInclude Include="WidgetTextureSelector.h">
+      <Filter>Заголовочные файлы\TheDarkGame\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.h">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.hpp">
+      <Filter>Заголовочные файлы\TheDarkGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

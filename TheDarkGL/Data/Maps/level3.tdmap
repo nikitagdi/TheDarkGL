@@ -1,0 +1,11 @@
+[header]
+name=level1
+sizex=128
+sizey=128
+[TerrainTile]
+id=11
+name=metal
+passable=1
+texture=metal
+[terrain]
+data=1,1,1,1,1,1,1,1,1,1,1,1,11,1,1,1,
